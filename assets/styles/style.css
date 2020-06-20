@@ -1,21 +1,25 @@
 body { 
-    max-width: 600px; 
+    max-width: 700px; 
     margin: 0 auto !important; 
 	float: none !important; 
 }
 h1 {
-    font-size: 40px;
+    font-size: 42px;
     color: lightcoral;
     text-align: center;
 }
 h2 {
     color: lightslategray;
+    font-size: 24px;
 }
 h3 {
     color: lightseagreen;
 }
 ul {
     list-style-type: none;
+}
+li {
+    font-size: 18px;
 }
 .footer {
     position: fixed;
