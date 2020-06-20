@@ -17,15 +17,10 @@ h3 {
 ul {
     list-style-type: none;
 }
-p {
-    font-size: 24px;
-    color: lightblue
-}
-p:hover {
-    font-size: 24px;
-    color: darkblue
-}
-#selfie {
-    width: 200px;
-    margin: 12px;
-}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
