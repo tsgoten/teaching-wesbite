@@ -1,6 +1,15 @@
+body { 
+    max-width: 600px; 
+    margin: 0 auto !important; 
+	float: none !important; 
+}
 h1 {
     font-size: 40px;
     color: lightcoral;
+    text-align: center;
+}
+h3 {
+    color: lightseagreen;
 }
 p {
     font-size: 24px;
