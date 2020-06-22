@@ -1,16 +1,46 @@
+body { 
+    max-width: 700px; 
+    margin: 0 auto !important; 
+	float: none !important; 
+}
 h1 {
-    font-size: 40px;
+    font-size: 48px;
     color: lightcoral;
+    text-align: center;
 }
-p {
+h2 {
+    color: lightslategray;
     font-size: 24px;
-    color: lightblue
+    margin-bottom: -10px;
 }
-p:hover {
-    font-size: 24px;
-    color: darkblue
+h3 {
+    color: lightseagreen;
 }
-#selfie {
+h4 {
+    margin-bottom: -10px;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    font-size: 18px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+}
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    color: gray;
+    margin: 15px;
+}
+.classInfo {
+    display: inline-block;
     width: 200px;
-    margin: 12px;
+    text-align: center;
 }
