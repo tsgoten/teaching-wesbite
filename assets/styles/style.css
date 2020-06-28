@@ -44,3 +44,6 @@ li {
     width: 200px;
     text-align: center;
 }
+#cs70-sections {
+    display: flex;
+}
